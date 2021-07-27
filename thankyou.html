@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <script>
+      function printQuery() {
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split("=");
+            document.write(pair[0] + ": " + pair[1] + "<br />");
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Thank You</title>
+  </head>
+
+  <body class="index">
+    <div class="container-fluid">
+      <nav class="ty navbar navbar-light navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <span class="ty navbar-text text-center">
+            Thank you for your comments and inquiries. Kala Young will be in touch soon!
+          </span>
+          <ul class="ty navbar-nav d-flex mb-2 mb-lg-0">
+            <li class="ty nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="ty nav-item">
+            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+            </li>
+            <li class="ty nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+            </li>
+          </ul>
+       </div>
+      </nav>
+
+      <footer class="ty container-fluid fixed-bottom text-center">Kala Young &copy; 2021</footer>
+
+    </div>
+  </body>
+
+  </html>
