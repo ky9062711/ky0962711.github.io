@@ -1,0 +1,130 @@
+/* index navigation */
+nav a:hover{
+  background-color: #FA8072;
+  border-radius: 25px;
+}
+body.index{
+  background-image: url(background.jpg);
+}
+nav.index{
+  margin-top: 220px;
+  padding: 40px;
+}
+nav.index li{
+  padding: 3px;
+}
+
+
+/* about page */
+nav.about{
+  background-image: url(background.jpg);
+  height: 200px;
+}
+nav.about h1{
+  font-weight: 500;
+  color: #e2725b;
+  text-shadow: -1px -1px 3px #ab4e52,2px 2px 4px #ffcba4;
+  margin-right: 45px;
+}
+.p-2{
+  width: 500px;
+}
+.flex-column{
+  padding-top: 50px;
+}
+dl.classes{
+  width: 520px;
+  padding-top: 40px;
+  margin-left: 95px;
+}
+dl.classes p{
+  padding: 8px;
+}
+.carousel img{
+  height: 400px;
+}
+.carousel{
+  margin-top: 930px;
+  margin-left: 20px;
+}
+.see h5{
+  color: black;
+  text-shadow: -4px 4px 15px rgba(255,255,255,0.83);
+}
+.see p{
+  color: black;
+  text-shadow: -4px 4px 15px rgba(255,255,255,0.83);
+}
+.last{
+  margin-top: 40px;
+  padding: 20px;
+  margin-right: 70px;
+ }
+.sticky-bottom{
+  background-image: url(background.jpg);
+  padding: 20px;
+  margin-top: 510px;
+}
+
+
+/* work example page */
+.fff{
+  padding: 20px;
+}
+.fffc{
+  margin-left: 120px;
+}
+.exp{
+  margin-top: 10px;
+}
+
+
+/* contact page */
+.form{
+  margin-top: 50px;
+  width: 800px;
+}
+.fnln{
+  padding: 30px;
+}
+.cont{
+  margin-top: 30px;
+}
+.sub{
+  background-color: #FA8072;
+}
+.sub:hover{
+  background-color: #FFDAB9;
+}
+
+
+
+/* thankyou page */
+nav.ty{
+  background-color: white;
+  text-align: center;
+  margin-top: 240px;
+  height: 150px;
+}
+span.ty{
+  font-size: 2.3rem;
+  text-decoration: underline;
+  color: #808080;
+}
+ul.ty{
+  list-style: none;
+}
+li.ty{
+  display: inline;
+  padding: 40px;
+  color: black;
+}
+.ty a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+footer.ty{
+  text-align: center;
+  margin-top: 240px;
+}
