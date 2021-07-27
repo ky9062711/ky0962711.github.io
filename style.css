@@ -67,17 +67,6 @@ dl.classes p{
 }
 
 
-/* work example page */
-.fff{
-  padding: 20px;
-}
-.fffc{
-  margin-left: 120px;
-}
-.exp{
-  margin-top: 10px;
-}
-
 
 /* contact page */
 .form{
@@ -127,4 +116,80 @@ li.ty{
 footer.ty{
   text-align: center;
   margin-top: 240px;
+}
+
+
+/* media queries */
+@media screen and (max-width:900px) {
+  h1.about{
+    margin-left: 200px;
+  }
+  img{
+    height: 450px;
+    width: 350px;
+    margin-top: 20px;
+  }
+  .d-flex{
+    width: 320px;
+  }
+
+  .carousel{
+    margin-right: 800px;
+  }
+  .con{
+  text-align: center;
+  }
+  nav.con{
+    height:220px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  nav.about{
+    height: 280px;
+  }
+  img{
+    height: 300px;
+    width: 250px;
+    margin-left: 90px;
+    margin-top: 200px;
+  }
+  .carousel{
+    margin-top: 1010px;
+    margin-left: 0px;
+  }
+  nav.ty{
+    height: 200px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  img{
+    display: none;
+  }
+  dl.classes{
+    width: 300px;
+  }
+  .p-2{
+    margin-left: 70px;
+  }
+  .h4{
+    margin-left: 6px;
+  }
+  .carousel{
+    margin-top: 1120px;
+    margin-left: 0px;
+  }
+  nav.about{
+    height: 300px;
+  }
+  .display-4{
+    margin-left: 150px;
+  }
+  form{
+    width: 400px;
+  }
+  nav.ty{
+    height: 200px;
+  }
 }
